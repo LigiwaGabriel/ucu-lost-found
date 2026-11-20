@@ -1,0 +1,12 @@
+# dependencies and build output
+node_modules/
+client/dist/
+# secrets - NEVER commit these
+.env
+*.env.local
+# runtime files
+server/uploads/*
+!server/uploads/.gitkeep
+*.log
+.DS_Store
+.vscode/
