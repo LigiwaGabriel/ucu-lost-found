@@ -1,9 +1,6 @@
-# Problem and user needs  (Milestone 1a - 4 marks)  Owner: Member 1
-## The problem (use the Okello / Namusoke story in your own words)
-## Users and their needs
-| User | Needs when ... | Pain points today |
-|---|---|---|
-| Student who lost an item | | |
-| Student who found an item | | |
-| Administrator | | |
-## What success looks like
+THE PROBLEM
+
+Across a busy campus like UCU, lost and found coordination easily breaks down when students rely on scattered word of mouth, informal group chats, or unverified handovers. Picture Okello losing his navy water bottle somewhere between the Chapel and the main gate while rushing between activities, while Namusoke picks up a set of keys with a blue keyring under a chair after a lecture in the N5B hall. Without a central, structured system, Okello may never see Namusoke's notice or know how to prove ownership safely, while Namusoke is left holding someone else's property with no clear process to hand it over—and administrators lack a reliable record of pending claims, approvals, and completed returns. Posting full identifying details publicly also risks false claims, while exposing contact or evidence details publicly creates privacy issues.   Users and their needsUserNeeds when ...Pain points todayStudent who lost an itemReporting a missing item (like Okello's bottle), searching found listings, submitting ownership evidence on a found item, tracking claim status, or closing a lost report once recoveredScattered notices make matching lost and found items slow; unclear whether an item is still open or already returned; awkward or unsafe coordination without a tracked claim flow   Student who found an itemPosting a found item (like Namusoke's keys) with public details and private identifying notes, without exposing sensitive verification details to everyoneUnsure where or how to log found items consistently; risking false claims if secret details (such as an engraving) are posted openly; no clear handover/return status   AdministratorReviewing incoming claims, checking private identifying details and evidence, approving or rejecting claims with a reason, and confirming final collection/returnHard to track which items await collection or remain open; risk of approving competing claims for the same item or losing auditability of decisions and returns 
+
+WHAT SUCCESS LOOKS LIKE 
+Students can quickly post lost or found reports, filter listings, and submit private ownership claims with clear status updates, while administrators can review evidence, prevent conflicting approvals, and confirm returns so items are accurately marked as returned and closed. Private verification fields (identifying_details and claim evidence) stay protected from public view, and the system enforces core rules reliably across the UI, API, and database. 
