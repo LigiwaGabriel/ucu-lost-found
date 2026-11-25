@@ -3,7 +3,7 @@ Project: UCU Lost and Found
 Milestone: 1d – Database Design
 Owner: Member 2
 
-## ERD (add image: docs/design/erd.png)
+## ERD
 The Entity Relationship Diagram (ERD) provides a visual representation of the database structure for the UCU Lost and Found website.
 
 It is intended to illustrate the entities involved in the system, their attributes, primary keys, foreign keys, and the relationships between different entities.
@@ -52,6 +52,7 @@ Protecting authentication credentials where authentication is implemented.
 Ensuring that users can only access information permitted by their roles.
 
 The actual security mechanisms should be documented according to the implementation in the project.
+
 ## Normalisation / design decisions
 
 Database normalisation is an important consideration when designing a structured database.
