@@ -1,10 +1,10 @@
 # Test Plan — member_5
 
-## 1. Full workflow
+## 1.full workflow
 
 | ID | Area | Test case | Preconditions | Steps | Expected result | Priority |
 |---|---|---|---|---|---|---|
-| WF-01 | Report | Create found-item report | Student A is signed in. | Submit a found report with valid required fields. | Report is saved with `open` status and appears in browse and My Reports. | High |
+| WF-01 | Report | Create found-item report | Student A is signed in. | Submit a found report with valid required fields. | Report is saved with `open` status and appears in browse and My Reports. | High | F
 | WF-02 | Search | Find report | WF-01 report is open; Student B is signed in. | Search by keyword and apply type, category, location, date, and status filters. | Matching report appears in the results. | High |
 | WF-03 | Claim | Submit claim | Report is open; Student B did not report it. | Submit meaningful identifying evidence for the found item. | Claim is saved with `pending` status and appears in My Claims. | High |
 | WF-04 | Review | Approve claim | A claim is pending; Staff/Admin is signed in. | Review the evidence, enter a decision reason and collection details, then approve. | Claim becomes `approved`; report remains `open`; claimant can see the decision. | High |
